@@ -1,0 +1,41 @@
+Просмотр файлов
+-ls (Мас\Linux)
+-dir (Windows)
+Переход по файлам/папкам
+-cd путь
+-cd /d путь переход по дискам
+Отчиистить терминал
+-clear (Мас\Linux)
+-cls (Windows)
+Создание папки 
+-mkdir имя папки
+Создания файла
+-touch имя файла (Мас\Linux)
+-echo > имя файла (Windows)
+Удаление файла
+-rm ия файла (Мас\Linux)
+-del имя файла (Windows)
+Показать включая скрытые файлы
+-dir/a
+Проверить версию git
+-git --version
+
+Задание имени и email
+git config --global user.name ""
+git config --global user.email ""
+
+Просмотеть настройки
+git config --list
+
+Флаги
+--local локально
+--system для всех пользователей
+--global глобально 
+
+Иницилизация
+-git init
+Показывает что не отслеживается
+-git status
+Задаем отслеживание
+-git add назвние файла или папки
+-git add . всю папку
