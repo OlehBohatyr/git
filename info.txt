@@ -40,4 +40,5 @@ git config --list
 -git add назвние файла или папки
 -git add . всю папку
 Cохраняем
--git commit -m"Коменнтарий"
+-git commit -m "Коменнтарий"
+Отравка на git hub
